@@ -90,7 +90,7 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp TILDE   &kp QUESTION     &kp GRAVE      &kp EQUAL       &kp SINGLE_QUOTE   &kp LEFT_BRACE                                      &mmv MOVE_UP                     &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp STAR   &kp POUND
+&kp TILDE   &kp QUESTION     &kp GRAVE      &kp EQUAL       &kp SINGLE_QUOTE   &kp LEFT_BRACE                                      &mmv MOVE_UP                     &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp STAR   &kp NON_US_HASH
 &kp DOLLAR  &kp EXCLAMATION  &kp LESS_THAN  &kp MINUS       &kp GREATER_THAN   &kp LEFT_BRACKET                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp CARET
 &kp AT      &kp AMPERSAND    &kp PIPE       &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp PERCENT
                                             &trans          &trans             &trans                                                                               &kp COLON              &kp NUMBER_0  &kp PERIOD
