@@ -78,7 +78,7 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E          &kp R        &kp T                               &kp UP                &kp Y        &kp U        &kp I       &kp O    &kp P     &kp C_AC_HOME
+&kp ESC    &kp Q  &kp W  &kp E          &kp R        &kp T                               &kp UP                &kp Y        &kp U        &kp I       &kp O    &kp P     &kp BACKSLASH
 &kp GLOBE  &kp A  &kp S  &mt LGUI D     &mt LSHFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RSHFT J  &mt RGUI K  &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C          &kp V        &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH  &kp BACKSLASH
                          &kp BACKSPACE  &kp SPACE    &lt 1 SPACE                                               &lt 2 ENTER  &kp ENTER    &kp TAB
@@ -90,10 +90,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&kp TILDE   &kp QUESTION     &kp GRAVE      &kp EQUAL       &kp SINGLE_QUOTE   &kp LEFT_BRACE                                      &mmv MOVE_UP                     &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp STAR   &kp LA(NUMBER_3)
-&kp DOLLAR  &kp EXCLAMATION  &kp LESS_THAN  &kp MINUS       &kp GREATER_THAN   &kp LEFT_BRACKET                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp CARET
-&kp AT      &kp AMPERSAND    &kp PIPE       &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp PERCENT
-                                            &trans          &trans             &trans                                                                               &kp COLON              &kp NUMBER_0  &kp PERIOD
+&kp TILDE  &kp QUESTION     &kp GRAVE      &kp EQUAL       &kp SINGLE_QUOTE   &kp LEFT_BRACE                                      &mmv MOVE_UP                     &kp RIGHT_BRACE        &kp N7        &kp N8        &kp N9        &kp STAR   &kp LA(NUMBER_3)
+&kp CARET  &kp EXCLAMATION  &kp LESS_THAN  &kp MINUS       &kp GREATER_THAN   &kp LEFT_BRACKET                    &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp RIGHT_BRACKET      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PLUS   &kp DOLLAR
+&kp AT     &kp AMPERSAND    &kp PIPE       &kp UNDERSCORE  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp RIGHT_PARENTHESIS  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp SLASH  &kp PERCENT
+                                           &trans          &trans             &trans                                                                               &kp COLON              &kp NUMBER_0  &kp PERIOD
             >;
 
             sensor-bindings = <&scroll_encoder>;
