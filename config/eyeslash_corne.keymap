@@ -105,7 +105,7 @@
 &bt BT_SEL 0  &none  &none                     &none           &none         &none                            &mmv MOVE_UP                     &none    &kp LG(MINUS)       &kp UP_ARROW  &kp LG(EQUAL)  &none  &bt BT_CLR_ALL
 &bt BT_SEL 1  &none  &kp LC(LS(LG(NUMBER_4)))  &vscode_unfold  &vscode_fold  &none            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &none    &kp LEFT            &kp DOWN      &kp RIGHT      &none  &none
 &bt BT_SEL 2  &none  &none                     &none           &none         &none  &trans                    &mmv MOVE_DOWN                   &none    &kp LC(LEFT_ARROW)  &kp HOME      &kp LC(RIGHT)  &none  &none
-                                               &trans          &trans        &none                                                             &kp RET  &trans              &trans
+                                               &trans          &trans        &none                                                             &kp RET  &trans              &bootloader
             >;
 
             sensor-bindings = <&scroll_encoder>;
