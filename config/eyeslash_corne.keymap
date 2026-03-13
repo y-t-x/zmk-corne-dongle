@@ -70,6 +70,13 @@
             bindings = <&kp LG(K) &kp LG(J)>;
             label = "VSCODE_UNFOLD";
         };
+
+        claude: claude {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT &kp LEFT_ALT>;
+            label = "CLAUDE";
+        };
     };
 
     keymap {
@@ -78,10 +85,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E          &kp R        &kp T                               &kp UP                &kp Y        &kp U        &kp I       &kp O    &kp P     &kp BACKSLASH
-&kp GLOBE  &kp A  &kp S  &mt LGUI D     &mt LSHFT F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RSHFT J  &mt RGUI K  &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C          &kp V        &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH  &kp BACKSLASH
-                         &kp BACKSPACE  &kp SPACE    &lt 1 SPACE                                               &lt 2 ENTER  &kp ENTER    &kp TAB
+&kp ESC                               &kp Q  &kp W  &kp E          &kp R        &kp T                               &kp UP               &kp Y        &kp U        &kp I       &kp O    &kp P     &kp BACKSLASH
+&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &kp A  &kp S  &mt LGUI D     &mt LSHFT F  &kp G                     &kp LEFT  &claude   &kp RIGHT  &kp H        &mt RSHFT J  &mt RGUI K  &kp L    &kp SEMI  &kp SQT
+&kp LCTRL                             &kp Z  &kp X  &kp C          &kp V        &kp B        &kp SPACE              &kp DOWN             &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH  &kp BACKSLASH
+                                                    &kp BACKSPACE  &kp SPACE    &lt 1 SPACE                                              &lt 2 ENTER  &kp ENTER    &kp TAB
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
