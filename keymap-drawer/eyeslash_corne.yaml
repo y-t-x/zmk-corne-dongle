@@ -14,14 +14,14 @@ layers:
   - O
   - P
   - {t: \, s: '|'}
-  - GLOBE
+  - AC NEXT KEYBOARD LAYOUT SELECT
   - A
   - S
   - {t: D, h: LGUI}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - '&claude'
   - $$mdi:arrow-right-bold$$
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
